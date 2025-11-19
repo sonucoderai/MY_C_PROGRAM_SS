@@ -4,7 +4,7 @@ int main() {
     for (int i = 1; i <= 10; i++) {
 
         if (i == 5) {
-            continue;   // skip printing when i becomes 5
+            continue;   
         }
 
         printf("%d\n", i);
